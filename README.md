@@ -10,7 +10,7 @@ We were given shapefiles for regional bike paths (*bike_route.shp*), parks (*par
 
 The script within this repo, *Lab2.py*, performs the following operation:
 
-1.  A clip analysis is performed with the arcpy module using parks.shp as the input feature and zip.shp as the clip feature.  The output which is all parks within our zipcode is saved as *parks_Clip.shp* in a Results folder in a local drive.
+1.  A clip analysis is performed with the arcpy module using parks.shp as the input feature and zip.shp as the clip feature.  The output which is all parks within our zip code is saved as *parks_Clip.shp* in a Results folder in a local drive.
 2.  After importing the environments from arcpy, the workspace environment folder is set.
 3.  A buffer analysis is performed with *facilities.shp* as the input feature and 500 meters as the distance parameter.  The output is saved to the Results folder.
 4.  A second buffer analysis that overwrites the previous buffer is performed.  The same inputs are used except that the dissolve option is selected.
